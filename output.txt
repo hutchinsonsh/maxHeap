@@ -1,0 +1,49 @@
+
+Insert: 50
+Heap capacity reached. No more elements can be added
+
+before
+250 32 49 13 10 11 17 8 4 2 
+from 11 to 12
+250 32 49 13 10 12 17 8 4 2 
+from 12 to 50
+250 32 50 13 10 49 17 8 4 2 
+from 2 to 33
+250 33 50 13 32 49 17 8 4 10 
+
+
+Changing keys done; Deletion
+
+
+50 33 49 13 32 10 17 8 4 
+250
+
+49 33 17 13 32 10 4 8 
+50
+
+33 32 17 13 8 10 4 
+49
+
+32 13 17 4 8 10 
+33
+
+17 13 10 4 8 
+32
+
+13 8 10 4 
+17
+
+10 8 4 
+13
+
+8 4 
+10
+
+
+Deletion done, Insertion
+
+8 4 
+Insert: 7
+8 4 7 
+Insert: 400
+400 8 7 4 
